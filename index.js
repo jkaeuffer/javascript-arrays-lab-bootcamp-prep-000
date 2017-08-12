@@ -22,11 +22,13 @@ function destructivelyRemoveFirstKitten(name) {
 };
 
 function appendKitten(name) {
-  var newKittens = [kittens, ...name]
+  var newKittens = [name, ...kittens]
+  return newKittens
 
 };
 
 function prependKitten(name) {
+  
 
 };
 
